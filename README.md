@@ -28,8 +28,26 @@ If you point your browser to [http://127.0.0.1:3000](http://127.0.0.1:3000) you 
 
 ## What Next?
 
+
+
 We recommend you heading over to [http://gobuffalo.io](http://gobuffalo.io) and reviewing all of the great documentation there.
 
 Good luck!
 
 [Powered by Buffalo](http://gobuffalo.io)
+
+
+Start Database:
+	$ cd go/src/github.com/gtrox115/profileapi/dbcompose
+	$ docker-compose up
+	$ docker logs -f my_postgres (See that its working)
+	$ docker exec -it my_postgres psql -U postgres -c "create database my_database" (Creates database)
+
+Before starting:
+	Update Spotify API key & username in actions/getIds.go
+
+To start up:
+	Ensure database is running
+	$ cd go/src/github.com/gtrox115/profileapi
+	$ buffalo dev
+	Visit localhost:3000
