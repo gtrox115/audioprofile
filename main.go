@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/gtrox115/audio_profile/actions"
+	"github.com/gtrox115/audioprofile/actions"
 )
 
 func main() {

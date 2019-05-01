@@ -15,7 +15,7 @@ included_extensions:
 - .env
 build_path: tmp
 build_delay: 200ns
-binary_name: audio_profile-build
+binary_name: audioprofile-build
 command_flags: []
 enable_colors: true
 log_name: buffalo
