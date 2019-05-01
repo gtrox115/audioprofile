@@ -36,6 +36,9 @@ Good luck!
 
 [Powered by Buffalo](http://gobuffalo.io)
 
+END OF BUFFALO READ ME
+
+
 
 Start Database:
 	$ cd go/src/github.com/gtrox115/profileapi/dbcompose
